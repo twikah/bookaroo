@@ -1,0 +1,22 @@
+.footer {
+  flex-shrink: 0;
+  background: transparent;
+  font-family: $headers-font;
+  height: 80px;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: rgba(0,0,0,0.5);
+  text-decoration: none;
+  padding: 0px 15px;
+}
+.footer-links a:hover {
+  color: rgba(0,0,0,0.7);
+}
+.footer .fa-heart {
+  color: $dark-coral;
+  font-size: 20px;
+}

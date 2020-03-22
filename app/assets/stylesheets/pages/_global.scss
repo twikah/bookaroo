@@ -1,0 +1,13 @@
+.page-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-wrap {
+  flex-grow: 1;
+}
+
+h1 {
+  font-size: 2.5em;
+}
