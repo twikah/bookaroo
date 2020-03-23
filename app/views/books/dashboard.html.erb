@@ -1,0 +1,19 @@
+<div class="row mt-5">
+  <div class="col-12">
+    <h4>Search a book by title, author or isbn</h4>
+    <div class="form-container" id="form-box">
+      <%= simple_form_for :search, remote: true, url: dashboard_books_path,
+      method: :get, wrapper: :inline_form,
+      html: { class: 'form-row mt-3 search-input', id: 'book-search-form' } do |f| %>
+        <div class="col-10">
+          <%= f.input :query, label: false, class: "form-control string required", placeholder: "Example: 1984" %>
+        </div>
+        <div class="col-2">
+          <%= f.submit "Search", class: "btn btn-block btn-search", id: "search-submit-btn" %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+<div id="search-results"></div>

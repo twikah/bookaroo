@@ -1,0 +1,6 @@
+// Defines an annonymous function that call itself with the last ()
+(() => {
+  const searchResults = document.querySelector('#search-results');
+
+  searchResults.innerHTML = "<%= escape_javascript(render :partial => 'results') %>";
+})()
