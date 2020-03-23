@@ -2,6 +2,8 @@
   background: transparent;
   justify-content: space-between;
   margin: 0.5em auto 0;
+  padding-right: 0;
+  padding-left: 0;
   a {
     font-family: $headers-font;
   }
@@ -13,4 +15,10 @@
 
 .navbar-lewagon .navbar-brand img {
   width: 150px;
+}
+
+.navbar-nav {
+  li {
+    margin-left: 0.7em;
+  }
 }

@@ -13,3 +13,17 @@
     color: $snow;
   }
 }
+
+.btn-search {
+  color: $snow;
+  border-radius: 6px;
+  font-family: $headers-font;
+  box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.3);
+  font-weight: bold;
+  background-color: #ed7953;
+  transition: background 0.3s ease;
+  &:hover {
+    background-color: $dark-coral;
+    color: $snow;
+  }
+}
