@@ -120,7 +120,6 @@
 .footer-call-out {
   position: relative;
   &:before {
-    // background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url(asset_path("footer-callout.jpg"));
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), asset-url("footer-callout.jpg");
     background-size: cover;
     background-position: center;
