@@ -1,0 +1,47 @@
+.book-card {
+
+  h6 {
+    font-size: 0.8em;
+    padding-top: 0.5em;
+  }
+
+  p {
+    font-weight: 100;
+  }
+
+  .content {
+    height: 235px;
+    max-width: 150px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: 0.4s ease-in-out;
+    &:hover {
+      cursor: pointer;
+      box-shadow: 1px 1px 18px -1px rgba(68,68,68,0.5);
+      transform: rotate(2deg);
+    }
+
+    .content-details {
+      height: 100%;
+      opacity: 0;
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.2);
+        opacity: 1;
+      }
+      a {
+        position: absolute;
+        bottom: 20%;
+        left: 12%;
+        font-family: $headers-font;
+        color: $snow;
+        font-weight: 400;
+        text-transform: uppercase;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
